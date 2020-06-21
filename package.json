@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "A bug tracker",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "node index.js"
   },
@@ -20,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/AlexChadwickP/bugtracker/issues"
   },
-  "homepage": "https://github.com/AlexChadwickP/bugtracker#readme"
+  "homepage": "https://github.com/AlexChadwickP/bugtracker#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
